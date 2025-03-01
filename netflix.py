@@ -7,7 +7,7 @@ import pandas as pd
 
 st.title('Netflix App')
 
-DATA_URL = 'movies.csv'
+DATA_URL = 'https://github.com/adsoftsito/streamlit-m5/blob/main/movies.csv'
 
 @st.cache_data
 def load_data(nrows=1000):
